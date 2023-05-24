@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "import/no-unresolved": "off",
+    "no-console": "warn",
+    "prefer-const": "error",
+    "indent": ["warn", 4],
+    "max-len": ["error", {"code": 120}],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": "error",
+    "import/named": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": ["src/**/*.test.ts"]
+}
