@@ -1,0 +1,10 @@
+@import "./src/shared/themes/global";
+
+.header {
+  padding: 8px;
+  > div:first-child {
+    padding: 8px;
+    justify-content: space-between;
+  }
+}
+
