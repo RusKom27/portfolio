@@ -6,10 +6,11 @@ import styles from "./Image.module.scss";
 const StyledImage = styled.img`
   width: 100%;
   height: 100%;
-  
+  object-fit: cover;
   display: flex;
   flex-direction: row;
 `;
+
 
 const Image: FC<React.ImgHTMLAttributes<HTMLImageElement>> = (props) => {
     return (
@@ -18,6 +19,7 @@ const Image: FC<React.ImgHTMLAttributes<HTMLImageElement>> = (props) => {
         </div>
 
     );
+
 };
 
 export default Image;
