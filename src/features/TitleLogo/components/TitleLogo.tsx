@@ -5,7 +5,7 @@ import styles from "./TitleLogo.module.scss";
 const TitleLogo = () => {
     return (
         <div className={styles.title_logo}>
-            RUSLAN ZHURNYY
+            <h1>RUSLAN ZHURNYY</h1>
         </div>
     );
 };

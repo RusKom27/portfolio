@@ -1,0 +1,34 @@
+@import "./src/shared/themes/global";
+
+.section {
+  border-radius: 4px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  max-height: 400px;
+  background-image: url("../../../../public/image_placeholder.jpg");
+  backdrop-filter: blur(3px);
+  > div {
+    > * {
+      flex: 6;
+    }
+
+  }
+
+}
+
+.head_section {
+  @extend .section;
+  background-color: #3B3B3B;
+  color: #EFEFEF;
+  padding: 36px;
+
+  h1 {
+    @extend .big_h;
+    margin-bottom: 28px;
+  }
+
+  p {
+    @extend .big_p;
+  }
+
+}

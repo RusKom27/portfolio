@@ -1,6 +1,10 @@
 @import "fonts";
 @import "css-reset";
 
+$primary_color: #EFEFEF;
+$secondary_color: #3B3B3B;
+
+
 body {
-  background-color: #EFEFEF;
+  background-color: $primary_color;
 }

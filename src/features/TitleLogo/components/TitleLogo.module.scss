@@ -2,8 +2,6 @@
 
 
 .title_logo {
-  font-family: ArchivoBlack, serif;
-  font-size: 48px;
-  color: #3B3B3B;
-  letter-spacing: 4px;
+  @extend .large_h;
+  color: $secondary_color;
 }

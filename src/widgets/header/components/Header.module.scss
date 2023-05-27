@@ -1,7 +1,8 @@
 @import "./src/shared/themes/global";
 
 .header {
-  padding: 8px;
+  padding-inline: 16px;
+  margin-bottom: 16px;
   > div:first-child {
     padding: 8px;
     justify-content: space-between;
