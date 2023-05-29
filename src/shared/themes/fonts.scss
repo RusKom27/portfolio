@@ -45,6 +45,11 @@
   font-size: 28px;
 }
 
+.small_h {
+  @extend .archivo_font;
+  font-size: 14px;
+}
+
 .large_p {
   @extend .montserrat_font;
   font-weight: 500;

@@ -2,14 +2,18 @@ import React from 'react';
 import './App.css';
 import {Layout} from "../../layout";
 import {HeadSection, Section} from "../../widgets";
-import {Container} from "../../shared/ui";
+import {Container, HorizontalRow} from "../../shared/ui";
 
 function App() {
     return (
         <Layout>
             <Container>
                 <HeadSection/>
-                <Section/>
+                <HorizontalRow>
+                    <Section/>
+                    <Section/>
+                    <Section/>
+                </HorizontalRow>
             </Container>
         </Layout>
     );

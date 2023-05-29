@@ -9,6 +9,10 @@ const Section = () => {
             <HorizontalRow>
                 <Image src={"image_placeholder.jpg"}/>
                 <div className={styles.section_description}>
+                    <HorizontalRow>
+                        <div className={styles.tag}>Gamedev</div>
+                        <div className={styles.tag}>Godot</div>
+                    </HorizontalRow>
                     <h1>My first game</h1>
                     <p>FFF wergwerg wergwerg ergerg erg.e erger ergerg erger gergerg erer egewr ewrgw rerger</p>
                 </div>
